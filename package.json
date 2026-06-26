@@ -1,0 +1,17 @@
+{
+  "name": "fridgechef-ai",
+  "version": "1.0.0",
+  "description": "AI Fridge Chef",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.2.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.2"
+  }
+}
